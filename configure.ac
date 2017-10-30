@@ -26,6 +26,7 @@ PKG_CHECK_MODULES(libplist, libplist >= 0.15)
 PKG_CHECK_MODULES(libzip, libzip >= 0.8)
 PKG_CHECK_MODULES(libcurl, libcurl >= 7.0)
 PKG_CHECK_MODULES(zlib, zlib >= 1.2)
+PKG_CHECK_MODULES(openssl, [libcrypto >= 0.9.8])
 
 
 GLOBAL_CFLAGS=$ACCFLAGS
